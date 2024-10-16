@@ -26,6 +26,6 @@ resource "aws_instance" "app_server" {
                 nohup busybox httpd -f -p 8080 &
               EOF */
   tags = {
-    Name = "primeira-instancia-1"
+    Name = "terraforma-ansible-python"
   }
 }
